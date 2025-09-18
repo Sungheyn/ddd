@@ -64,8 +64,8 @@
     <Analyzer Include="/home/discopse/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/PlayerAttack.cs" />
     <Compile Include="Assets/Scripts/PlayerControl.cs" />
-    <Compile Include="Assets/Scripts/PlayerRay.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
