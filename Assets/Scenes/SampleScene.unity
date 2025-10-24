@@ -137,9 +137,9 @@ GameObject:
   - component: {fileID: 88195769}
   - component: {fileID: 88195770}
   - component: {fileID: 88195771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -334,6 +334,7 @@ MonoBehaviour:
   LimitTime: 0
   Up: 0
   IsTrigger: 0
+  delta: 0
 --- !u!1 &337706192
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,7 +476,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -567,7 +568,7 @@ GameObject:
   - component: {fileID: 1223219769}
   - component: {fileID: 1223219771}
   - component: {fileID: 1223219770}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UpAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -695,7 +696,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1468423920}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attack Ranges
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -729,7 +730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1860506898}
   - component: {fileID: 1860506899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrontAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}

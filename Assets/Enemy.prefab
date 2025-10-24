@@ -149,3 +149,8 @@ MonoBehaviour:
   Speed: 0
   CritRatio: 0
   CritPercent: 0
+  Radius: 2
+  Collider: []
+  layer:
+    serializedVersion: 2
+    m_Bits: 64
