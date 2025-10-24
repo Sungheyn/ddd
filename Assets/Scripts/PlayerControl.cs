@@ -17,14 +17,25 @@ public class PlayerControl : MonoBehaviour
     private Rigidbody2D rigid;
     private bool CanJump = false;
     private float DashVal = 0f, delta = 0f;
+    private Vector3 local;
     void Awake()
     {
         rigid = transform.GetComponent<Rigidbody2D>();
+    }
+    private void Start()
+    {
+        local = transform.localScale;
     }
 
     void FixedUpdate()
     {
         rigid.velocity = new Vector2(speed * Input.GetAxisRaw("Horizontal") + DashVal, rigid.velocity.y);
+        float HAxis = Input.GetAxisRaw("Horizontal");
+        if (rigid.constraints != (RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionX)) 
+        {
+            float dir = Input.GetAxisRaw("Horizontal") >= 0 ? 1 : -1;
+            transform.localScale = new Vector3(local.x * dir, local.y, local.z);
+        }
         if (CanJump)
         {
             rigid.AddForce(Vector2.up * JumpForce * 10, ForceMode2D.Force);
