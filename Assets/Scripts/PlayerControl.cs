@@ -31,7 +31,7 @@ public class PlayerControl : MonoBehaviour
     {
         rigid.velocity = new Vector2(speed * Input.GetAxisRaw("Horizontal") + DashVal, rigid.velocity.y);
         float HAxis = Input.GetAxisRaw("Horizontal");
-        if (rigid.constraints != (RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionX)) 
+        if (rigid.constraints != (RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionX) && HAxis != 0) 
         {
             float dir = Input.GetAxisRaw("Horizontal") >= 0 ? 1 : -1;
             transform.localScale = new Vector3(local.x * dir, local.y, local.z);

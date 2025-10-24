@@ -12,8 +12,9 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private float LimitTime;
     private bool isAttacking = false;
+    private bool CanTime = false;
     [SerializeField] private bool Up = false, IsTrigger = false;
-    private float delta;
+    [SerializeField] private float delta;
     private void Awake()
     {
         
@@ -22,8 +23,6 @@ public class PlayerAttack : MonoBehaviour
     {
         if (!isAttacking)
         {
-            FrontAttack.SetActive(true);
-            Animator.SetTrigger("RightAttack");
             if (IsTrigger)
             {
                 if (Up)
@@ -37,6 +36,11 @@ public class PlayerAttack : MonoBehaviour
                     Animator.SetTrigger("DownAttack");
                 }
             }
+            else
+            {
+                FrontAttack.SetActive(true);
+                Animator.SetTrigger("RightAttack");
+            }
         }
     }
     private void CheckAnimation()
@@ -44,20 +48,23 @@ public class PlayerAttack : MonoBehaviour
         if (Animator.GetCurrentAnimatorStateInfo(0).IsName("RightAttack"))
         {
             isAttacking = true;
+            FrontAttack.SetActive(true);
         }
         else if (Animator.GetCurrentAnimatorStateInfo(0).IsName("½Ï ´ë±â¸ð¼Ç_Clip"))
         {
             isAttacking = false;
+            UpAttack.SetActive(false);
+            FrontAttack.SetActive(false);
         }
         else if (Animator.GetCurrentAnimatorStateInfo(0).IsName("UpAttack"))
         {
             isAttacking = true;
+            UpAttack.SetActive(true);
         }
     }
 
     private void Update()
     {
-        bool CanTime = false;
         if (Input.GetKeyDown(KeyCode.L))
         {
             AttackHandle();
@@ -70,12 +77,12 @@ public class PlayerAttack : MonoBehaviour
         {
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
-         float VAxis = Input.GetAxisRaw("Vertical");
-        if (VAxis != 0)
+        if (Input.GetKeyDown(KeyCode.W))
         {
             delta = 0;
             CanTime = true;
             IsTrigger = true;
+            Up = true;
         }
         
         if (CanTime)
@@ -86,7 +93,7 @@ public class PlayerAttack : MonoBehaviour
                 delta = 0;
                 CanTime = false;
                 IsTrigger = false;
-                Up = VAxis > 0;
+                Up = false;
             }
         }
     }
