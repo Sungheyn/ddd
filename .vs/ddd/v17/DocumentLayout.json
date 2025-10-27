@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\discopse\\Documents\\GitHub\\ddd\\",
+  "WorkspaceRootPath": "D:\\2025meta\\ddd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|C:\\Users\\discopse\\Documents\\GitHub\\ddd\\assets\\scripts\\statehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|c:\\users\\discopse\\documents\\github\\ddd\\assets\\scripts\\enemystatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|d:\\2025meta\\ddd\\assets\\scripts\\enemystatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemystatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|c:\\users\\discopse\\documents\\github\\ddd\\assets\\scripts\\playerattackpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerattackpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|C:\\Users\\discopse\\Documents\\GitHub\\ddd\\assets\\scripts\\playerstatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|C:\\Users\\discopse\\Documents\\GitHub\\ddd\\assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|D:\\2025meta\\ddd\\assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|C:\\Users\\discopse\\Documents\\GitHub\\ddd\\assets\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|D:\\2025meta\\ddd\\assets\\scripts\\playerstatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|D:\\2025meta\\ddd\\assets\\scripts\\playerattackpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerattackpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|D:\\2025meta\\ddd\\assets\\scripts\\statehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|D:\\2025meta\\ddd\\assets\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9894DBBB-1E4B-BBD8-9910-1A7E0A89B7F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,54 +34,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EnemyStateHandler.cs",
-              "DocumentMoniker": "C:\\Users\\discopse\\Documents\\GitHub\\ddd\\Assets\\Scripts\\EnemyStateHandler.cs",
+              "DocumentMoniker": "D:\\2025meta\\ddd\\Assets\\Scripts\\EnemyStateHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyStateHandler.cs",
-              "ToolTip": "C:\\Users\\discopse\\Documents\\GitHub\\ddd\\Assets\\Scripts\\EnemyStateHandler.cs",
+              "ToolTip": "D:\\2025meta\\ddd\\Assets\\Scripts\\EnemyStateHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyStateHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-24T05:50:27.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "StateHandler.cs",
-              "DocumentMoniker": "C:\\Users\\discopse\\Documents\\GitHub\\ddd\\Assets\\Scripts\\StateHandler.cs",
+              "DocumentMoniker": "D:\\2025meta\\ddd\\Assets\\Scripts\\StateHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StateHandler.cs",
-              "ToolTip": "C:\\Users\\discopse\\Documents\\GitHub\\ddd\\Assets\\Scripts\\StateHandler.cs",
+              "ToolTip": "D:\\2025meta\\ddd\\Assets\\Scripts\\StateHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\StateHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-24T05:49:40.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerAttackPoint.cs",
-              "DocumentMoniker": "C:\\Users\\discopse\\Documents\\GitHub\\ddd\\Assets\\Scripts\\PlayerAttackPoint.cs",
+              "DocumentMoniker": "D:\\2025meta\\ddd\\Assets\\Scripts\\PlayerAttackPoint.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAttackPoint.cs",
-              "ToolTip": "C:\\Users\\discopse\\Documents\\GitHub\\ddd\\Assets\\Scripts\\PlayerAttackPoint.cs",
+              "ToolTip": "D:\\2025meta\\ddd\\Assets\\Scripts\\PlayerAttackPoint.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerAttackPoint.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-24T05:46:56.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PlayerStateHandler.cs",
-              "DocumentMoniker": "C:\\Users\\discopse\\Documents\\GitHub\\ddd\\Assets\\Scripts\\PlayerStateHandler.cs",
+              "DocumentMoniker": "D:\\2025meta\\ddd\\Assets\\Scripts\\PlayerStateHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerStateHandler.cs",
-              "ToolTip": "C:\\Users\\discopse\\Documents\\GitHub\\ddd\\Assets\\Scripts\\PlayerStateHandler.cs",
+              "ToolTip": "D:\\2025meta\\ddd\\Assets\\Scripts\\PlayerStateHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerStateHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,13 +90,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PlayerControl.cs",
-              "DocumentMoniker": "C:\\Users\\discopse\\Documents\\GitHub\\ddd\\Assets\\Scripts\\PlayerControl.cs",
+              "DocumentMoniker": "D:\\2025meta\\ddd\\Assets\\Scripts\\PlayerControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControl.cs",
-              "ToolTip": "C:\\Users\\discopse\\Documents\\GitHub\\ddd\\Assets\\Scripts\\PlayerControl.cs",
+              "ToolTip": "D:\\2025meta\\ddd\\Assets\\Scripts\\PlayerControl.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerControl.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCEAAAB+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T14:35:16.506Z",
               "EditorCaption": ""
@@ -105,13 +105,14 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "PlayerAttack.cs",
-              "DocumentMoniker": "C:\\Users\\discopse\\Documents\\GitHub\\ddd\\Assets\\Scripts\\PlayerAttack.cs",
+              "DocumentMoniker": "D:\\2025meta\\ddd\\Assets\\Scripts\\PlayerAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAttack.cs",
-              "ToolTip": "C:\\Users\\discopse\\Documents\\GitHub\\ddd\\Assets\\Scripts\\PlayerAttack.cs",
+              "ToolTip": "D:\\2025meta\\ddd\\Assets\\Scripts\\PlayerAttack.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerAttack.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAIwFUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T11:00:25.928Z"
+              "WhenOpened": "2025-10-23T11:00:25.928Z",
+              "EditorCaption": ""
             }
           ]
         }
