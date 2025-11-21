@@ -6,8 +6,8 @@ using UnityEngine.Timeline;
 
 public class PlayerAttack : MonoBehaviour
 {
-    [SerializeField] private GameObject FrontAttack;
-    [SerializeField] private GameObject UpAttack;
+    [SerializeField] private Collider2D FrontAttack;
+    [SerializeField] private Collider2D UpAttack;
     [SerializeField] private Animator Animator;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private float LimitTime;
@@ -27,18 +27,15 @@ public class PlayerAttack : MonoBehaviour
             {
                 if (Up)
                 {
-                    UpAttack.SetActive(true);
                     Animator.SetTrigger("UpAttack");
                 }
                 else
                 {
-                    UpAttack.SetActive(true);
                     Animator.SetTrigger("DownAttack");
                 }
             }
             else
             {
-                FrontAttack.SetActive(true);
                 Animator.SetTrigger("RightAttack");
             }
         }
@@ -48,18 +45,18 @@ public class PlayerAttack : MonoBehaviour
         if (Animator.GetCurrentAnimatorStateInfo(0).IsName("RightAttack"))
         {
             isAttacking = true;
-            FrontAttack.SetActive(true);
+            FrontAttack.enabled = true;
         }
         else if (Animator.GetCurrentAnimatorStateInfo(0).IsName("½Ï ´ë±â¸ð¼Ç_Clip"))
         {
             isAttacking = false;
-            UpAttack.SetActive(false);
-            FrontAttack.SetActive(false);
+            UpAttack.enabled = false;
+            FrontAttack.enabled = false;
         }
         else if (Animator.GetCurrentAnimatorStateInfo(0).IsName("UpAttack"))
         {
             isAttacking = true;
-            UpAttack.SetActive(true);
+            UpAttack.enabled = true;
         }
     }
 
